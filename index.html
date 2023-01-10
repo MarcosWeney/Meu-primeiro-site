@@ -1,0 +1,126 @@
+<!DOCTYPE html> <!--informa ao agente de usuário qual a versão do html deve ser renderizada-->
+<html lang="pt-br"><!--informa ao browser a linguagem que a pagina deve ser iniciada-->
+<head><!--padrão do HTML -->
+    <meta charset="UTF-8"><!--informa o tipo de codificação usada na página-->
+    <meta name="author" content="Dev Weney"><!--informa o nome do autor da pagina para possíveis visualizadores-->
+    <meta name="description" content="Meu Primeiro Site"><!--descrição da página-->
+    <meta name="keywords" content="html5, css, estudo"><!--tags para ajudar o browser a encontrar sua pagina-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--usado o IE e outros navegadores com versões antigas a renderizar o novo HTML5-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--o tamanho com que a pagina será renderizada-->
+    <link rel="stylesheet" href="Styles.css">
+    <!--comentários feitos por Weney-->
+    <title>Céu dos Doguinhos</title>
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <div id="imglogo"></div>
+            <div id="botaouxdesign">
+                <form action="images/IMGATEND.png">
+                    <input type="submit"  value="Ver UxDesign" id="btnux">
+                </form>
+            </div>
+        </div>    
+    </header>
+    <main>      
+        <div id="imgfundo"></div>
+
+        <div class="sobre">
+            <H1>Sobre!</H1>
+            <nav>
+                <ul>
+                    <div id="liquemsomos">
+                        <li>Quem somos</li>
+                    <p>Nós somos um Petshop focado 100% em doguinhos, de 
+                        todas as raças e tamanhos. Com sede em Não me toque 
+                        Minas gerais e fundada no ano de 1931 a Céu dos doguinhos 
+                        já atendeu mais de 100 mil animais. <br>
+
+                        "Nosso proposito é cuidar e tratar todos os animais
+                        independete de sua origem, amamos o que fazemos e 
+                        continuaremos fazendo tudo que for possivel para o bem 
+                        estar de seu melhor amigo, o Cachorro"
+                
+                        <p class="name">att.  Cleber, fundador </p>
+                        </p>
+                    </div>
+                    <div id="liongs">
+                        <li>Abrigo de animais</li>
+                        <p>Atendemos de forma totalmente gratuita 3 ongs de doguinhos encontrados na rua
+                            em em situação de maltrato.
+                            que são :
+                        </p>
+                        <a href="https://www.caosemdono.com.br/">Cão Sem dono</a>
+                        <a href="https://www.focinhosdeluz.com/">Focinhos de luz</a>
+                        <a href="https://projetocaosemfome.com/">Cão sem fome</a>
+                        <p class="name">Não compre, adote.</p>
+                    </div>
+                    <div id="livet">
+                        <li>Profissionais</li>
+                        <img src="images/MEDICOS.png" />
+                        <p>Contamos com 3 Profissionais especilistas em pronto socorro 
+                            para atender seu doguinho com todo cuidado que ele merece!
+                        </p>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="servico">
+            <div id="servicos1">
+                <h2>Banho</h2>
+                <img src="images/IMGBANHO.png" />
+                <p>Um banho inesquecível para seu doguinho!</p>
+            </div>
+            <div id="servicos2">
+                <h2>Tosa</h2>
+                <img src="images/IMGTOSA.png" />
+                <p>Aqui seu melhor amigo sai de pelo cortado!</p>
+            </div>
+            <div id="servicos3">
+                <h2>Atendimento</h2>
+                <img src="images/IMGATEND.png" />
+                <p>Todo o tipo de atendimento veterinário!</p>
+            </div>
+        </div>
+    </main> 
+    <aside>
+        <div class="visita">
+            <div id="visitaloja">
+                <h2>Se preferir, visite nossa loja !</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16685.303217051354!2d-52.819463537274586!3d-28.459877442401513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94fd492498d6957f%3A0x9a8b601ccba4050d!2sN%C3%A3o-Me-Toque%20-%20RS%2C%2099470-000!5e0!3m2!1spt-BR!2sbr!4v1673379301165!5m2!1spt-BR!2sbr" ></iframe> 
+            </div>
+            <div id="visitacasa">
+                <h2>Visita a residência !</h2>
+                <p>podemos visitar o seu doguinho?</p>
+                <form action="" method="post" class="form">
+ 
+                        <label for="nomeanimal">Nome do animal:</label>
+                        <input type="text" name="nomeanimal" id="nomeanimal">
+                        <label for="nascanimal">Nascimento do animal:</label>
+                        <input type="date" name="nascanimal" id="nascanimal"> 
+                        <label for="nometutor">Nome do Tutor:</label>
+                        <input type="text" name="nometutor" id="nometutor">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                        <label for="lagradouro">Lagradouro:</label>
+                        <input type="text" name="lagradouro" id="lagradouro">
+                        <label for="bairro">Bairro ou Setor:</label>
+                        <input type="text" name="bairro" id="bairro">
+                        <label for="ref">Referência:</label>
+                        <input type="text" name="ref" id="ref">
+                        <input type="submit"  value="Enviar" id="btn">
+                        <p>Ao enviar você aceita os <a href="">termos de uso do usuario</a></div>.</p>
+
+                </form>
+            </div>
+        </div>
+    </aside>
+        <footer>
+            <div class="rodape">
+                <p>Copyright Marcos Weney &copy;</p>
+            </div>
+        </footer>
+       
+</body>
+</html>
